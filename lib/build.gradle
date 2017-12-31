@@ -10,7 +10,7 @@ def devId = 'alinhayati'
 def devName = 'Ali Nemati Hayati'
 def devEmail = 'alinhayati@gmail.com'
 def libGroup = 'com.digigene.android'
-def libName = 'easymvp'
+def libName = 'easy-mvp'
 def libDescription = 'Easy MVP framework for android'
 def libUrl = 'https://github.com/digigene/easymvp'
 def libGitUrl = "$libUrl" + ".git"
@@ -20,7 +20,7 @@ def licUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
 
 def majorNumber = 1
 def minorNumber = 0
-def patchNumber = 0
+def patchNumber = 2
 
 def _versionCode = majorNumber + minorNumber + patchNumber
 def _versionName = "$majorNumber" + "." + "$minorNumber" + "." + "$patchNumber"

@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity
 import android.view.LayoutInflater
 import android.view.ViewGroup
 
-public abstract class BaseViewImpl<Presenter : BasePresenter>(val presenter: Presenter) : BaseView, Fragment() {
+abstract class BaseViewImpl<Presenter : BasePresenter>(val presenter: Presenter) : BaseView, Fragment() {
 
     private val mPresenter: Presenter = presenter
     private lateinit var mActivity: AppCompatActivity

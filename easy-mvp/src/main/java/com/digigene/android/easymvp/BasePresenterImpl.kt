@@ -5,7 +5,7 @@ import android.content.Context
 import android.support.v7.app.AppCompatActivity
 import io.reactivex.disposables.CompositeDisposable
 
-public abstract class BasePresenterImpl<View> : BasePresenter where View : Fragment, View : BaseView {
+abstract class BasePresenterImpl<View> : BasePresenter where View : Fragment, View : BaseView {
     val compositeDisposable: CompositeDisposable = CompositeDisposable()
     lateinit var mView: View
     protected lateinit var mActivity: AppCompatActivity

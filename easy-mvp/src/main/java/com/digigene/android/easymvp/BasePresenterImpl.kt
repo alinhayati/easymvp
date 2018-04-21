@@ -8,8 +8,6 @@ import io.reactivex.disposables.CompositeDisposable
 abstract class BasePresenterImpl<View> : BasePresenter where View : Fragment, View : BaseView {
     val compositeDisposable: CompositeDisposable = CompositeDisposable()
     lateinit var mView: View
-    protected lateinit var mActivity: AppCompatActivity
-    protected lateinit var mContext: Context
 
     override fun doWhenOnStopIsCalled() {
         compositeDisposable.clear()
@@ -17,7 +15,5 @@ abstract class BasePresenterImpl<View> : BasePresenter where View : Fragment, Vi
 
     override fun <V> setView(view: V) where V : Fragment, V : BaseView {
         mView = view as View
-        mActivity = mView.activity as AppCompatActivity
-        mContext = mActivity as Context
     }
 }

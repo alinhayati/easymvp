@@ -24,52 +24,8 @@
       </value>
     </option>
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Android</id>
-          </State>
-          <State>
-            <id>Bidirectional TextInternationalizationLintAndroid</id>
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-          <State>
-            <id>InternationalizationLintAndroid</id>
-          </State>
-          <State>
-            <id>LintAndroid</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>LongLine</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="Android" />
   </component>
 </project>

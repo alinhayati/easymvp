@@ -1,8 +1,6 @@
 package com.digigene.android.easymvp
 
 import android.app.Fragment
-import android.content.Context
-import android.support.v7.app.AppCompatActivity
 import io.reactivex.disposables.CompositeDisposable
 
 abstract class BasePresenterImpl<View> : BasePresenter where View : Fragment, View : BaseView {

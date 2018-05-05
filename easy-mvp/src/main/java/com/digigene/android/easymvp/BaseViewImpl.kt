@@ -8,7 +8,7 @@ import android.view.ViewGroup
 
 abstract class BaseViewImpl<Presenter : BasePresenter>(val presenter: Presenter) : BaseView, Fragment() {
 
-    private val mPresenter: Presenter = presenter
+    val mPresenter: Presenter = presenter
     private lateinit var mActivity: AppCompatActivity
     protected lateinit var rootView: android.view.View
 
